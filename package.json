@@ -1,0 +1,25 @@
+{
+  "name": "gitbook-plugin-colour-swatch",
+  "version": "1.0.0",
+  "description": "A GitBook Plugin to Generate Colour Swatches.",
+  "main": "index.js",
+  "engines": {
+    "gitbook": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myles/gitbook-plugin-colour-swatch.git"
+  },
+  "keywords": [
+    "gitbook"
+  ],
+  "author": "Myles Braithwaite",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/myles/gitbook-plugin-colour-swatch/issues"
+  },
+  "homepage": "https://github.com/myles/gitbook-plugin-colour-swatch#readme"
+}
