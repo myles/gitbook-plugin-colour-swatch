@@ -25,20 +25,18 @@ module.exports = {
             sassColour = block.kwargs.sassColour,
             name = block.kwargs.name;
 
-        return `
-          <div class="c-swatch" style="border-top-color: ${rgbColour || hexColour}; border-bottom-color: ${rgbColour || hexColour};">
-            <div class="c-swatch__name">
-              ${name}
-            </div>
-            <div class="c-swatch__codes">
-              <code class="c-swatch__code">${sassColour}</code>
-              <span class="c-swatch__sperator">&bull;</span>
-              <code class="c-swatch__code">${rgbColour}</code>
-              <span class="c-swatch__sperator">&bull;</span>
-              <code class="c-swatch__code">${hexColour}</code>
-            </div>
-          </div>
-        `
+        return `<div class="c-swatch" style="border-top-color: ${rgbColour || hexColour}; border-bottom-color: ${rgbColour || hexColour};">
+  <div class="c-swatch__name">
+    ${name}
+  </div>
+  <div class="c-swatch__codes">
+    <code class="c-swatch__code">${sassColour}</code>
+    <span class="c-swatch__sperator">&bull;</span>
+    <code class="c-swatch__code">${rgbColour}</code>
+    <span class="c-swatch__sperator">&bull;</span>
+    <code class="c-swatch__code">${hexColour}</code>
+  </div>
+</div>`
       }
     }
   }

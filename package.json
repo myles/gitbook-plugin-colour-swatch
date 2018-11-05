@@ -7,7 +7,7 @@
     "gitbook": "*"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha --reporter spec --timeout 15000"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/myles/gitbook-plugin-colour-swatch/issues"
   },
-  "homepage": "https://github.com/myles/gitbook-plugin-colour-swatch#readme"
+  "homepage": "https://github.com/myles/gitbook-plugin-colour-swatch#readme",
+  "devDependencies": {
+    "gitbook-tester": "^1.4.3",
+    "mocha": "^5.2.0"
+  }
 }
