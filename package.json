@@ -7,7 +7,8 @@
     "gitbook": "*"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec --timeout 15000"
+    "test": "node_modules/.bin/mocha --reporter spec --timeout 15000",
+    "build-docs": "gitbook build"
   },
   "repository": {
     "type": "git",
