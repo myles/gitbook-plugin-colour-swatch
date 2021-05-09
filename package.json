@@ -25,6 +25,6 @@
   "homepage": "https://github.com/myles/gitbook-plugin-colour-swatch#readme",
   "devDependencies": {
     "gitbook-tester": "1.4.3",
-    "mocha": "6.1.2"
+    "mocha": "8.4.0"
   }
 }
